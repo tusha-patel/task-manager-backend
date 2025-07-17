@@ -10,6 +10,9 @@ const taskRoutes = require("./routes/taskRoutes");
 const reportRoutes = require("./routes/reportRoutes");
 
 const app = express();
+
+console.log(process.env.CLIENT_URL);
+
 // middleware to handle CORS
 app.use(cors({
     origin: process.env.CLIENT_URL,
