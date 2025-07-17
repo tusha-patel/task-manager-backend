@@ -9,9 +9,6 @@ const generateToken = (userId) => {
 }
 
 
-//@desc Register a new User
-// @path POST/api/auth/register
-// @access public
 
 const registerUser = async (req, res) => {
     try {
